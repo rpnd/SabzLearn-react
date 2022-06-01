@@ -1,0 +1,51 @@
+.header {
+    background: url("../../../public/Images/Header/img_1.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 78vh;
+    background-attachment: fixed;
+    background-color: #000;
+}
+
+.header > div {
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.header > div h1 {
+    padding: 15px 0;
+}
+
+.header > div p {
+    padding-bottom: 20px;
+}
+
+.search_bar_header input {
+    padding: 22px;
+    width: 700px;
+    border-radius: 12px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.search_bar_header label {
+    position: absolute;
+    margin-right: -55px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.all_box_header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width : 780px) {
+    .search_bar_header input {
+        width: 95%;
+    }
+}

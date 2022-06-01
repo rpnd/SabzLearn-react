@@ -1,0 +1,72 @@
+.container_topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F2F7;
+    padding: 20px;
+}
+
+.right_topbar > nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_topbar>nav>ul>li {
+    margin: 0 15px;
+}
+
+.right_topbar>nav>ul>li a {
+    color: black;
+    font-size: 14px;
+}
+
+.right_topbar>nav>ul>li a:hover {
+    color: #389ACA;
+    transition: .4s;
+}
+
+.left_topbar > div > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_topbar>div>ul>li a {
+    color: black;
+    font-size: 14px;
+}
+
+.left_topbar>div>ul>li a:hover {
+    color: #389ACA;
+    transition: .4s;
+}
+
+.left_topbar>div>ul>li a i {
+    color: #2BD1B3;
+    font-size: 14px;
+}
+
+.phone_topbar {
+    margin-left: 20px;
+}
+
+.phone_topbar i {
+    margin-right: 10px;
+    border: 1px solid #2BD1B3;
+    padding: 2px;
+}
+
+.email_topbar i {
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width : 1170px) {
+    .right_topbar>nav>ul {
+        display: none;
+    }
+    .container_topbar {
+        justify-content: center;
+    }
+}
